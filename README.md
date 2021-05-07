@@ -16,7 +16,7 @@ The following modules are required.
 * CentOS release 6.8
 * Hadoop 2.6.0-cdh5.5.0
 * Java 1.8 
-* graphhopper-map-matching-core >= 0.8.2
+* graphhopper-map-matching-core >= 0.8.2 (refer to https://github.com/graphhopper/map-matching)
 * graph-cache (road network obtained from openstreetmap)
 ---
 
