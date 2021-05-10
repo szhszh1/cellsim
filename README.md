@@ -35,12 +35,6 @@ main: src\com\xjtu\simi
 
 util: src\com\xjtu\util
 
-* sample data
-
-comove: data\comove
-
-mm: data\mapmatching
-
 ---
 ## 3. License
 The code is developed under the MPL-02.0 license.
