@@ -3,14 +3,6 @@ This is the implemetation of the code and sample data for paper "Processing Cell
 
 ---
 
-### Overview
-1. [Requirements](#requirements)
-2. [Dir](#dir)
-3. [Run](#run)
-4. [License](#license)
-
----
-
 ## 1. Requirements
 The following modules are required.
 
