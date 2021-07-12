@@ -37,9 +37,11 @@ sample data for mapmatching and similarity search
 * unzip data.zip
 
 * run map matching
+
 hadoop -jar mm.jar com.xjtu.mm.MM_my_hadoop_multi input output graph-cache loc_error maxnode maxroute q res
 
 * run similar trajectory searching
+
 hadoop -jar simi.jar com.xjtu.simi.simi_all_hadoop.java input output graph-cache maxnode globalthres query groundtruth
 
 ---
