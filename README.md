@@ -1,12 +1,13 @@
 # cellsim
-This is the implemetation of the code and sample data for paper "Retrieving Similar Trajectories from Cellular Data at City Scale". The codes are implemented with MapReduce framework.
+This is the implemetation of the code and sample data for paper "Processing Cellular Data for Similar Trajectories". The codes are implemented with MapReduce framework.
 
 ---
 
 ### Overview
 1. [Requirements](#requirements)
 2. [Dir](#dir)
-3. [License](#license)
+3. [Run](#run)
+4. [License](#license)
 
 ---
 
@@ -35,6 +36,9 @@ main: src\com\xjtu\simi
 
 util: src\com\xjtu\util
 
+## 3. Run
+
+
 ---
-## 3. License
+## 4. License
 The code is developed under the MPL-02.0 license.
