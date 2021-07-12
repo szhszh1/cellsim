@@ -36,8 +36,13 @@ main: src\com\xjtu\simi
 
 util: src\com\xjtu\util
 
+* data.zip
+sample data for mapmatching and similarity search
+
 ---
 ## 3. Run
+* unzip data.zip
+
 * run map matching
 hadoop -jar mm.jar com.xjtu.mm.MM_my_hadoop_multi input output graph-cache loc_error maxnode maxroute q res
 
