@@ -50,6 +50,8 @@ hadoop -jar simi.jar com.xjtu.simi.simi_all_hadoop.java input output graph-cache
 
 * `output` : Path to output results, e.g., ./results/
 
+* `graph-cache` : Path to road network (can be downloaded from openstreetmap), e.g., graph-cache
+
 * `loc_error` : max error of the sensor e.g., 200
 
 * `maxnode` : max visited node, e.g., 20000
