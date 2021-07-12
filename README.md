@@ -46,9 +46,9 @@ hadoop -jar simi.jar com.xjtu.simi.simi_all_hadoop.java input output graph-cache
 
 ---
 ## 4. Parameter descriptions
-* `input` : Path to input sequences, e.g., ./data/mm/
+* `input` : Path to input sequences
 
-* `output` : Path to output results, e.g., ./results/
+* `output` : Path to output results
 
 * `graph-cache` : Path to road network (can be downloaded from openstreetmap), e.g., graph-cache
 
