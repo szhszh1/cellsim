@@ -36,8 +36,33 @@ main: src\com\xjtu\simi
 
 util: src\com\xjtu\util
 
+---
 ## 3. Run
+* run map matching
+hadoop -jar mm.jar com.xjtu.mm.MM_my_hadoop_multi input output graph-cache loc_error maxnode maxroute q res
 
+* run similar trajectory searching
+hadoop -jar simi.jar com.xjtu.simi.simi_all_hadoop.java input output graph-cache maxnode globalthres query groundtruth
+
+---
+## 4. Parameter descriptions
+* `input` : Path to input sequences, e.g., ./data/mm/
+
+* `output` : Path to output results, e.g., ./results/
+
+* `loc_error` : max error of the sensor e.g., 200
+
+* `maxnode` : max visited node, e.g., 20000
+
+* `q` : queue name in hadoop system, e.g., q1
+
+* `res` : max java opts, e.g., 1024
+
+* `query` : Path to query sequence, e.g., ./data/comove/2.txt
+
+* `globalthres` : Global threshold, e.g., 300000
+
+* `groundtruth` : Path to groundtruth sequence
 
 ---
 ## 4. License
